@@ -6,8 +6,8 @@ name = "pypi"
 [packages]
 numpy = "*"
 tensorflow-gpu = "*"
-pillow = "*"
 pandas = "*"
+six = "*"
 
 [dev-packages]
 

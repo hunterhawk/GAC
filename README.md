@@ -48,10 +48,10 @@ You can build the targets using [Bazel](http://bazel.build)
 ```bash
 bazel build //scripts/... # build all targets in scripts folder
 bazel build //gac:lib # build the gac library
-bazel build //scripts:gac_train # build the train script
-bazel build //scripts:gac_eval # build the eval script
-bazel build //scripts:gac_build_tfrecords # build the tfrecords script
-bazel build //scripts:gac_saved_model # build the tensorflow serving exporter script
+bazel build //scripts:train # build the train script
+bazel build //scripts:eval # build the eval script
+bazel build //scripts:build_tfrecords # build the tfrecords script
+bazel build //scripts:saved_model # build the tensorflow serving exporter script
 ```
 
 Run the generated targets:
@@ -60,14 +60,14 @@ Run the generated targets:
 # do not forget to run the following commands inside `pipenv shell`
 
 # build tfrecords containing train and test set
-./bazel-bin/scripts/gac_build_tfrecords
+./bazel-bin/scripts/build_tfrecords
 
 # train on train set
-./bazel-bin/scripts/gac_train
+./bazel-bin/scripts/train
 
 # evaluate on test set
-./bazel-bin/scripts/gac_eval
+./bazel-bin/scripts/eval
 
 # export the model
-./bazel-bin/scripts/gac_saved_model
+./bazel-bin/scripts/saved_model
 ```

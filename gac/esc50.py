@@ -4,9 +4,6 @@ import random
 import numpy as np
 import pandas as pd
 
-SPECTROGRAM_SIZE = (128, 128)
-SPECTROGRAM_SIZE_WITH_CHANNELS = SPECTROGRAM_SIZE + (1,)
-
 def read_csv_dataset():
     """Read ESC50 csv dataset .
     Returns:
