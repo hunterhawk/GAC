@@ -33,7 +33,11 @@ pipenv install tensorflow
 
 ## Downloading the dataset
 
-I choose the [ESC-50](https://github.com/karoldvl/ESC-50) dataset to train and validate the model. Download the dataset .zip (600mb) and extract it into the `ESC-50` directory.
+I choose the [ESC-50](https://github.com/karoldvl/ESC-50) dataset to train and validate the model. Download the dataset .zip (600mb) and extract it into the `ESC-50` directory or clone the repository:
+
+```bash
+git clone https://github.com/karoldvl/ESC-50.git ESC-50
+```
 
 ## Building and Running
 
