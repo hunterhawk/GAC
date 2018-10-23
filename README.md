@@ -1,5 +1,7 @@
 # GAC
 
+> DO NOT USE! Work in progress!
+
 This repository contains the GAC(General Audio Classification) project. My goal is to develop an e2e arquitecture for a general audio classifier that is both powerful and scalable.
 
 ## Installation
@@ -9,7 +11,7 @@ First of all you need to install the [Bazel](https://docs.bazel.build/versions/m
 Clone the repository:
 
 ```bash
-git clone repo_here
+git clone https://github.com/mauri870/GAC.git
 ```
 
 Let's install the python deps. We are going to use `pipenv` to create a fresh environment:
